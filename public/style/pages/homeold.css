@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+/*.icon_home { background: url(../../image/icon/home/icon.png) no-repeat; display: inline-block; vertical-align: middle; }*/
+
+#wrraper { direction: rtl; }
+#wrraper #banner { position: relative; overflow: hidden; }
+#wrraper #banner .carousel-indicators li { width: 13px !important; height: 13px !important; border: 2px solid #fff; margin: 1px !important; background: #8F8F8F; }
+#wrraper #banner .carousel-indicators .active { background: #FFF; }
+#wrraper #banner .item { animation: item 0.6s; }
+#wrraper #banner img { min-width: 100%; min-height: 100%; }
+#wrraper #banner img.center { position: absolute; left: 0; right: 0; bottom: 0; }
+#wrraper #banner #detail { z-index: 1; color: #FFF; text-align: center; }
+#wrraper #banner #detail p { font-size: 2.5rem; }
+#wrraper #banner #detail a { font-size: 2.5rem; display: inline-block; background-color: #ab171f; padding: 11px 25px; margin-top: 20px; font-family: isansIr; }
+#wrraper #banner #detail a:hover { background-color: #dd4b39; }
+#wrraper #banner .arrow { position: absolute; transition: .3s; background-color: rgba(255,255,255,.3); line-height: 100px; opacity: 0; top: 49%; font-size: 3.5rem; padding: 0 20px; display: inline-block; }
+#wrraper #banner:hover .arrow { opacity: 1; }
+#wrraper #banner .arrow.ti-angle-right { right: 0; }
+#wrraper #banner .arrow.ti-angle-left { left: 0; }
+
+@keyframes fa-angle-double-down {
+	from{
+        transform: translate(0, 12px)
+	} to{
+        transform: translate(0, 0)
+	}
+}
+
+#wrraper #product { margin-top: 50px; overflow-y: hidden; }
+#wrraper .effect { animation: lazy 1.3s both; }
+#wrraper #title h2 { font-size: 3.3rem; font-family: karalight; margin-bottom: 20px; text-align: center; }
+#wrraper #title #line { border-bottom: 3px solid #838383; position: relative; width: 50px; margin: auto; }
+#wrraper #title #line .fa-angle-down { width: 30px; height: 30px; border: 1px solid #CECECE; text-align: center; line-height: 30px; font-size: 2.3rem; box-shadow: 0 0 8px rgba(0,0,0,.1); position: absolute; left: 0; background-color: #FFF; border-radius: 100%; top: -16px; }
+#wrraper #product #content { margin-top: 40px; }
+#wrraper #product #content .title { margin-bottom: 10px; font-size: 2.4rem; }
+#wrraper #product #content p { margin-bottom: 10px; line-height: 24px; color: #777; font-size: 1.5rem; font-family: karalight; text-align: justify;;max-height: 210px;min-height: 210px; }
+#wrraper #product #content .more { display: inline-block; margin-top: 10px; background: #AB171F; color: #FFF; padding: 10px; font-size: 1.4rem; }
+#wrraper #product #content .more i { vertical-align: middle; margin-top: 1px; }
+#wrraper #product #content .indent { width: 49%; }
+#wrraper #product #content .indent .rightSide { width: 13%; }
+#wrraper #product #content .indent .rightSide img { width: 100%; margin-top: 5px; }
+#wrraper #product #content .indent .leftSide { width: 83%; }
+
+#wrraper #service { margin-top: 50px; background-color: #eaeff3; padding: 10px 0 30px 0; }
+#wrraper #service #title h2 { margin-bottom: 0; }
+#wrraper #service #title p { font-size: 1.23rem; text-align: center; }
+#wrraper #service #content { margin: 20px 0 10px 0; }
+#wrraper #service #content ul { display: flex; }
+#wrraper #service #content li { width: 24%; float: right; text-align: right; background-color: #FFF; margin-left: 1.3%; overflow: hidden; box-shadow: 0 0 4px rgba(0,0,0,.1); }
+#wrraper #service #content li:last-child { margin-left: 0; }
+#wrraper #service #content li .cover { width: 100%; position: relative; overflow: hidden; }
+#wrraper #service #content li .cover img { width: 100%; transition: .3s; }
+#wrraper #service #content li .cover:hover img { transform: scale(1.2); }
+#wrraper #service #content li .detail { padding: 10px; }
+#wrraper #service #content li .detail h3 { font-size: 1.9rem; height: 40px; margin-bottom: 30px; line-height: 28px; }
+#wrraper #service #content li .detail p { line-height: 22px; font-size: 1.5rem; text-align: justify; font-family: karalight; height: 110px; }
+#wrraper #service #content .more { display: inline-block; margin-top: 10px; color: #FFF; padding: 10px; background-color: #AB171F; font-size: 1.4rem; border-radius: 3px; }
+#wrraper #service #content .more i { vertical-align: middle; margin-top: 1px; }
+
+#wrraper #webAbout { margin-top: 50px; padding: 10px 0 30px 0; }
+#wrraper #webAbout #content img { width: 100%; }
+#wrraper #webAbout #content p { font-family: karalight; font-size: 1.26rem; padding: 20px; line-height: 25px; text-align: center; }
+
+#wrraper #webService { margin-top: 50px; padding: 10px 0 30px 0; background-color: #eaeff3; }
+#wrraper #webService #title h2 { margin-bottom: 0; }
+#wrraper #webService .widthParallel { max-width: 1350px; }
+#wrraper #webService #content p { font-family: karalight; font-size: 1.26rem; padding: 10px 20px 20px 20px; line-height: 25px; text-align: center; }
+#wrraper #webService #content ul li { width: 32%; border-radius: 20px; float: right; cursor: pointer; background-color: #FFF; padding: 30px 0 40px 0; margin: 0 0 20px 2%; text-align: center; box-shadow: 0 0 4px rgba(0,0,0,.1); }
+#wrraper #webService #content ul li:nth-child(3n) { margin-left: 0; }
+#wrraper #webService #content ul li p { height: 90px; padding: 0 40px; margin-top: 10px; position: relative; }
+#wrraper #webService #content ul li .title { font-family: kara; position: relative; }
+#wrraper #webService #content ul li .icons i { width: 64px; height: 64px; transition: .3s; line-height: 53px; font-size: 3rem; color: #FFF;border-radius: 100%; margin-bottom: 20px; }
+#wrraper #webService #content ul li a { font-size: 1.1rem; padding: 9px 15px; color: #FFF; background-color: #AB171F; }
+#wrraper #webService #content ul li:hover .icons i {  transform: scale(1.2); color: #FFF !important; border-color: #FFF !important; }
+#wrraper #webService #content ul li:hover { color: #FFF; }
+#wrraper #webService #content ul li:hover .title { top: 20px; }
+#wrraper #webService #content ul li:hover p { top: 20px; }
+#wrraper #webService #content ul li:hover a { visibility: hidden; }
+
+#wrraper #join { margin: 50px 0; text-align: center; }
+#wrraper #join ul li { display: inline-block; margin: 0 20px; }
+#wrraper #join ul li img { width: 100px; }
+#wrraper #join ul li i { vertical-align: middle; font-size: 2.7rem; margin-left: 10px; color: #AB171F; }
+#wrraper #join ul li a { display: inline-block; padding: 20px; font-size: 1.7rem; font-family: karalight; }
+
+#wrraper #slider { margin: 120px 0 50px 0; padding: 30px 0; background-color: #eaeff3; position: relative; }
+#wrraper #slider .carousel-inner { margin-top: -80px; }
+#wrraper #slider .arrow { position: absolute; transition: .3s; opacity: 0; top: 49%; font-size: 3.5rem; padding: 0 20px; display: inline-block; }
+#wrraper #slider:hover .arrow { opacity: 1; }
+#wrraper #slider .arrow.ti-angle-right { right: 0; }
+#wrraper #slider .arrow.ti-angle-left { left: 0; }
+#wrraper #slider .cover {  }
+#wrraper #slider .cover img { width: 100%; position: relative; z-index: 1; }
+#wrraper #slider .cover #img { width: 90%; position: absolute; right: 0; z-index: 2; left: 0; top: 24px; margin: auto; animation: item .3s both .5s; border-radius: 4px; }
+#wrraper #slider .text { margin-top: 80px; }
+#wrraper #slider .text a { background-color: #AB171F; animation: item .3s both 1.5s; display: inline-block; margin-top: 10px; color: #FFF; font-size: 1.4rem; padding: 10px; }
+#wrraper #slider .text h3 { font-size: 2.8rem; animation: item .3s both .9s; font-family: karalight; }
+#wrraper #slider .text p { animation: item .3s both 1.2s; line-height: 27px; text-align: justify; font-family: karalight; font-size: 1.5rem; padding-left: 40px; }
+
+#wrraper #article { padding-bottom: 80px; overflow-y: hidden; }
+/*#wrraper #article li { width: 49.5%; border: 1px solid #e6e6e6; padding: 3px; }*/
+#wrraper #article li:last-child { animation-delay: .2s; }
+#wrraper #article li .cover { position: relative; }
+#wrraper #article li .cover img { width: 100%; }
+#wrraper #article li .cover #detail { width: 100%; position: absolute; bottom: 0; }
+#wrraper #article li .cover #detail .title { line-height: 55px; padding-right: 10px; color: #FFF; font-size: 1.4rem; background-color: rgba(0,0,0,.7); }
+/* #wrraper #article li .cover #detail .title::before { background: #000; color: #AB171F; border: none; content: "\e965"; font-size: 25px; float: right; padding: 15px; margin: 0 0 0 15px; font-family: icon !important; line-height: 1; } */
+#wrraper #article li .cover #detail:hover .title::before { background: #B51B20; color: #FFF; }
+#wrraper #article li .cover #detail .ul { opacity: 0; transition: .3s; background-color: rgba(0,0,0,.7); }
+/* #wrraper #article li .cover #detail:hover .ul { opacity: 1; } */
+#wrraper #article li .cover #detail .ul a { display: block; color: #FFF; width: 100%; transition: .3s; border: none; margin: 0; padding: 5px; margin-top: 10px; font-size: 1.2rem; }
+#wrraper #article li .cover #detail .ul a:hover { color: #ff585e; }
+#wrraper #article li .cover #detail .ul a::before { color: #d71920; border: none; content: "\e314"; float: right; padding: 0; font-family: icon !important; line-height: 1; font-size: 20px; }
+#wrraper #article li .detail { padding: 20px 20px 0 20px; }
+#wrraper #article li .detail .title { margin-bottom: 10px; font-size: 2.2rem; }
+#wrraper #article li .detail p { height: 70px; font-size: 1.5rem; font-family: karalight; line-height: 22px; margin-bottom: 0; }
+#wrraper #article li .more { display: inline-block; background: #AB171F; margin: 0 20px 10px 0; color: #FFF; padding: 10px; font-size: 1.4rem; }
+
+
+#wrraper #brands {/* margin: 50px 0; */position: relative;height: 590px;}
+#wrraper #brands .arrows { transition: .4s; cursor: pointer; position: absolute; width: 80px; line-height: 130px; background-color: #EEE; text-align: center; font-size: 4rem; top: 43%; z-index: 1; }
+#wrraper #brands:hover .arrows { opacity: 1; }
+#wrraper #brands .arrows.right { right: 0; }
+#wrraper #brands .arrows.left { left: 0; }
+#wrraper #brands .carousel-inner > .item { display: block; height: 0; overflow: hidden; }
+#wrraper #brands .carousel-inner > .item.active { height: auto; overflow: hidden; animation: item 1s; }
+#wrraper #brands #content .flickity-prev-next-button { width: 34px; height: 34px; opacity: 0; transition: .3s; }
+#wrraper #brands #content:hover .flickity-prev-next-button { opacity: 1; }
+#wrraper #brands #content .flickity-rtl .flickity-prev-next-button.next { left: -5px; }
+#wrraper #brands #content .flickity-rtl .flickity-prev-next-button.previous { right: 5px; }
+#wrraper #brands .carousel-indicators { width: 100%; margin-top: 40px; padding: 0; position: static; text-align: center; }
+#wrraper #brands .carousel-indicators li { width: 10px !important; height: 10px !important; background-color: #CCC; border: none !important; margin: 3px; float: none; display: inline-block; }
+#wrraper #brands .carousel-indicators .active { background-color: #000; }
+#wrraper #brands p { width: 90%; margin: 0 auto 40px auto; font-family: karalight; text-align: center; font-size: 1.5rem; line-height: 24px; }
+#wrraper #brands #logo { text-align: center; margin: 30px 0; }
+#wrraper #brands #labels { text-align: center; margin: 0 0 30px 0; font-size: 2.4rem; font-family: karalight; }
+#wrraper #brands #logo img { width: 120px; }
+#wrraper #brands .flickity-viewport { height: 135px !important; width: 90%; margin: auto; }
+#wrraper #brands ul { text-align: center; }
+#wrraper #brands ul li { width: 180px; position: relative; float: none; display: inline-block; margin-left: 20px; text-align: center; vertical-align: top; }
+#wrraper #brands ul li .cover { width: 100%; height: 80px; position: relative; }
+#wrraper #brands ul li .title { font-size: 1.3rem; padding: 0 10px; font-family: karalight; }
+#wrraper #brands ul li img { width: 55%; }
+
+@keyframes item {
+	from{
+		opacity: 0;
+	} to{
+        opacity: 1;
+	}
+}
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+}
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+	header #topbar #logo1 { width: 234px; }
+	header #topbar.fixed #logo2 { transform: none; }
+	#wrraper #service #content li .detail h3 { font-size: 1.4rem; }
+	#wrraper #join ul li a { padding: 10px; font-size: 1.5rem; }
+	#wrraper #join ul li img { width: 70px; }
+	#wrraper #slider .cover #img { top: 15px; }
+}
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	#wrraper #banner { margin-top: 50px; }
+	#wrraper #banner .carousel-indicators { padding: 0; bottom: 0; }
+	#wrraper #banner .carousel-indicators li { width: 9px !important; height: 9px !important; }
+	#wrraper #banner .fa-angle-double-down { bottom: 16px; }
+	#wrraper #banner .arrow { opacity: 1; top: 29%; padding: 0 10px; font-size: 2.5rem; }
+	#wrraper #title h2 { font-size: 1.8rem; margin-bottom: 10px; }
+	#wrraper #product #content { padding: 0 16px; margin-top: 20px; }
+	#wrraper #product #content .indent { width: 100%; text-align: center; margin-bottom: 20px; }
+	#wrraper #product #content .title { font-size: 1.6rem; margin-top: 20px; color: #AB171F; }
+	#wrraper #product #content .title img { width: 50%; float: right; margin-left: 8px; }
+	#wrraper #product #content a { margin-top: 10px; }
+	#wrraper #product #content .indent .rightSide { width: 100%; float: none !important; text-align: center; }
+	#wrraper #product #content .indent .rightSide img { width: 80px; }
+	#wrraper #product #content .indent .leftSide { width: 100%; margin-bottom: 20px; }
+	#wrraper #product #content p { line-height: 20px; }
+	#wrraper #service #content ul { display: block; }
+	#wrraper #service { padding-bottom: 0; margin-top: 10px; }
+	#wrraper #service #content li { width: 100%; margin: 0 0 20px 0; }
+	#wrraper #service #content li .detail h3 { font-size: 1.4rem; height: 40px; margin: 0; }
+	#wrraper #service .flickity-viewport { height: 361px !important; }
+	#wrraper #service #content li .detail { padding: 10px 16px; }
+	#wrraper #service #content li .detail p { font-size: 1.22rem; height: auto; }
+	#wrraper #product #content p { display: block; font-size: 1.3rem; text-align: justify; line-height: 24px; margin-bottom: 25px; }
+	#wrraper #product #content a { display: inline; }
+	#wrraper #join { margin: 30px 0; }
+	#wrraper #join ul li { margin: 5px 0; }
+	#wrraper #join ul li:last-child a { background-color: #3C91F0; }
+	#wrraper #join ul li a { padding: 12px; font-size: 1.2rem; color: #FFF; background-color: #AB171F; border-radius: 100px; }
+	#wrraper #join ul li.line { width: 80%; border-bottom: 1px solid #DDD; }
+	#wrraper #join ul li .material-icons { font-size: 1.4rem; color: #FFF; margin-left: 0; }
+	#wrraper #article { margin-bottom: 10px; width: 97%; margin: auto; }
+	#wrraper #article .flickity-viewport { height: 392px !important; }
+	#wrraper #article li { width: 100%; margin-bottom: 10px; }
+	#wrraper #article li p { height: auto; }
+	#wrraper #article li .cover #detail .title { line-height: 45px; }
+	#wrraper #article li .cover #detail .title::before { font-size: 15px; }
+	#wrraper #article li .cover #detail ul li { width: 100%; }
+	#wrraper #slider { margin: 30px 0px 50px 0; padding: 30px 10px; }
+	#wrraper #slider .text p { font-size: 1.25rem; }
+	#wrraper #slider .carousel-inner { margin-top: 0; }
+	#wrraper #slider .text { margin-top: 0; }
+	#wrraper #slider .text h3 { font-size: 1.6rem; font-weight: bold; }
+	#wrraper #slider .cover { width: 336px; margin: auto; float: none !important; }
+	#wrraper #slider .cover #img { top: 15px; }
+	#wrraper #brands { margin: 20px 0 40px 0; height: auto; }
+	#wrraper #brands #labels { font-size: 1.7rem; }
+	#wrraper #brands ul li { width: 100px; margin-left: 15px; }
+	#wrraper #brands ul li img { width: 90%; font-size: 1.3rem; line-height: 24px; }
+	#wrraper #brands p { text-align: justify; padding: 0 16px; }
+	#wrraper #brands .arrows { width: 40px; line-height: 80px; }
+	#wrraper #brands ul li .title { font-size: 1.1rem; }
+	#wrraper #brands .flickity-viewport { height: 155px !important; }
+	#wrraper #brands .carousel-indicators { margin-top: 10px; }
+}
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}

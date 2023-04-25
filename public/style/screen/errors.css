@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+#validation-summary-errors { padding: 12px 10px; direction: rtl; text-align: right; }
+#validation-summary-errors ul { list-style: none; margin: 10px 0 0 0; padding: 0; }
+#validation-summary-errors span { font-size: 2.1rem; display: inline-block; color: #a70000; font-style: italic; }
+#validation-summary-errors li { float: right; font-size: 1.1rem; color: #FFF; margin: 0 0 0 15px; font-style: italic; background-color: #B70027; padding: 8px 10px; border-radius: 4px; font-family: iryekanbold; }
+#validation-summary-errors.success { width: 50%; padding: 10px; margin-bottom: 5x; display: inline-block; background-color: #deffd7; border: 1px solid #86ef60; }
+#validation-summary-errors.success ul { display: none; }
+#title-masterpage { font-size: 1.3rem; }
+
+.alertFilter { border: 1px solid #f5b9b9 !important; }
+.alertFilter::-webkit-input-placeholder { color: #FF0004; }
+.alertFilter::-moz-input-placeholder { color: #FF0004; }
+
+.alertSpan { font-size: 1.2rem; background-color: #CF0000; color: #FFF; padding: 5px 14px; border-radius: 2px; position: absolute; z-index: 1; right: 0; font-family: isansbold; bottom: -37px; text-align: center; white-space: nowrap; line-height: normal; }
+.alertSpan span { font-size: 1.2rem !important; font-weight: normal; }
+.alertSpan .arrow { position: absolute; top: -14px; right: 20px; width: 0; height: 0; border: 7px solid transparent; border-bottom: 10px solid #CF0000; }

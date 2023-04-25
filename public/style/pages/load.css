@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { background-color: #AB171F; }
+#wrraper { font-family: karalight; font-size: 1.4rem; text-align: center; color: #FFF; }
+#wrraper img { width: 400px; }
+#wrraper .countdown { margin: 30px; direction: ltr; }
+#wrraper .countdown span { display: inline-block; margin: 0 3px; }
+#wrraper .countdown .num { width: 50px; height: 60px; line-height: 70px; font-size: 3rem; background-color: #000; }
+#wrraper p { padding: 15px 0; border-top: 1px solid #FFF; border-bottom: 1px solid #FFF; }
+
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+}
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+}
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	#wrraper img { width: 300px; }
+	#wrraper .countdown .num { width: 40px; height: 50px; line-height: 55px; font-size: 2rem; background-color: #000; }
+}
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}

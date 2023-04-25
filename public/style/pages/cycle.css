@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contactFix .indent.demo { display: block; }
+
+#cycle { margin: 50px auto; direction: rtl; font-size: 1.5rem; line-height: 27px; }
+#cycle #top { font-family: karalight; margin-bottom: 50px; }
+#cycle #top img { width: 85%; }
+#cycle #top .text { padding: 10px; font-size: 1.4rm; }
+#cycle #top .text .title { font-family: kara; font-size: 2.4rem; margin-top: 20px; font-family: karalight; color: #d71920; margin-bottom: 10px; display: block; }
+#cycle #top p { text-align: justify; font-size: 1.9rem; margin-top: 80px; padding-left: 50px; line-height: 31px; }
+#cycle #top ul li { list-style: disc inside; }
+#cycle h2 { font-size: 2.4rem; font-family: karalight; border-bottom: 1px solid rgb(192, 192, 192); padding-bottom: 10px; margin-bottom: 20px; }
+#cycle #banner { margin-bottom: 40px; position: relative; }
+#cycle #banner a { color: #FFF; font-size: 1.8rem; display: block; width: 100%; text-align: center; }
+#cycle #banner img { width: 100%; }
+#cycle #post li { width: 32%; float: right; text-align: right; margin: 0 0 25px 2%; }
+#cycle #post li .cover { text-align: center; border: 1px solid #DDD; padding: 2px; }
+#cycle #post li .cover img { width: 100%; }
+#cycle #post li h3 { font-size: 1.8rem; }
+#cycle #post li p { font-size: 1.26rem; line-height: 24px; font-family: karalight; text-align: justify; }
+#cycle #post li hr { width: 50px; border-bottom: 2px solid #333; }
+#cycle #post li a { color: #FFF; background-color: #ab171f; display: inline-block; padding: 5px 10px; font-size: 1.2rem; }
+#cycle #bottom { padding-top: 10px; }
+#cycle #bottom li { width: 49%; float: right; margin-bottom: 20px; }
+#cycle #bottom li:nth-child(2n) { float: left; }
+#cycle #bottom li img { width: 100%; }
+#cycle #bottom li i { font-family: icon; font-style: normal; font-size: 8rem; color: #d71920; line-height: 1; text-align: center; display: block; }
+#cycle #bottom li .icon-prmanagment::before { content: "\e949"; }
+#cycle #bottom li .icon-customer::before { content: "\e926"; }
+#cycle #bottom li .icon-sell::before { content: "\e94e"; }
+#cycle #bottom li .icon-distribute2::before { content: "\e929"; }
+#cycle #bottom li .icon-account::before { content: "\e917"; }
+#cycle #bottom li .icon-bpm::before { content: "\e91b"; }
+#cycle #bottom li h3 { margin: 0 0 10px 0; font-size: 2.2rem; font-family: karalight; color: #d71920; }
+#cycle #bottom li p { font-family: karalight; font-size: 1.5rem; height: 105px; text-align: justify; }
+
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+	#cycle #post li:nth-child(3n) { margin-left: 0; }
+}
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+	#cycle #post li:nth-child(3n) { margin-left: 0; }
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+	#cycle #post li:nth-child(3n) { margin-left: 0; }
+}
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	#head .widthParallel { margin-top: 60px; }
+	#head .widthParallel span { bottom: 10px; }
+	#cycle { padding: 5px; margin-bottom: 0; }
+	#cycle #top { margin-bottom: 0; }
+	#cycle #bottom li { width: 100%; text-align: center; }
+	#cycle #bottom li [class*="col-"] { width: 100%; }
+	#cycle #bottom li i { font-size: 4rem; margin-bottom: 10px; }
+	#cycle #bottom li img { width: 70px; }
+	#cycle #bottom li p { height: auto; }
+	#cycle #top .cover { text-align: center; }
+	#cycle #top img { width: 220px; }
+	#cycle #top p { margin-top: 20px; padding: 0; font-size: 1.5rem; }
+	#cycle h2 { font-size: 1.5rem; }
+}
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}

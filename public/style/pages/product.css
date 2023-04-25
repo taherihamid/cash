@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contactFix .indent.demo { display: block; }
+
+#product { margin: 50px auto; direction: rtl; font-size: 1.5rem; line-height: 27px; }
+#product #top { font-family: karalight; margin-bottom: 50px; }
+#product #top img { width: 100%; }
+#product #top .text { padding: 10px; font-size: 1.4rm; }
+#product #top .text .title { font-family: kara; font-size: 2.4rem;  font-family: karalight; color: #d71920; margin-bottom: 10px; display: block; }
+#product #top .text .title.secend { font-size: 1.7rem; }
+#product #top p { text-align: justify; font-size: 1.5rem; margin: auto; width: 600px; }
+#product #top a { color: #FFF; background-color: #ab171f; padding: 10px; font-size: 1.2rem; font-family: kara; display: inline-block; margin-top: 10px; }
+#product #top ul li { list-style: disc inside; }
+#product h2 { font-size: 2.4rem; font-family: karalight; border-bottom: 1px solid rgb(192, 192, 192); padding-bottom: 10px; margin-bottom: 20px; }
+#product #banner { margin-bottom: 40px; position: relative; }
+#product #banner a { color: #FFF; font-size: 1.8rem; display: block; width: 100%; text-align: center; }
+#product #banner img { width: 100%; }
+#product #post li { width: 32%; float: right; text-align: right; margin: 0 0 25px 2%; }
+#product #post li .cover { text-align: center; border: 1px solid #DDD; padding: 2px; }
+#product #post li .cover img { width: 100%; }
+#product #post li h3 { font-size: 1.8rem; }
+#product #post li p { font-size: 1.26rem; line-height: 24px; font-family: karalight; text-align: justify; }
+#product #post li hr { width: 50px; border-bottom: 2px solid #333; }
+#product #post li a { color: #FFF; background-color: #ab171f; display: inline-block; padding: 5px 10px; font-size: 1.2rem; }
+#product #bottom { padding-top: 10px; }
+#product #bottom .cover img { width: 350px; }
+#product #bottom .right { border-left: 1px solid #777; padding-left: 40px; }
+#product #bottom .left { padding-right: 40px; }
+#product #bottom li { width: 100%; float: right; margin-bottom: 20px; }
+#product #bottom li:nth-child(2n) { float: left; }
+#product #bottom li img { width: 100%; }
+#product #bottom li i { font-family: icon; font-style: normal; font-size: 8rem; color: #d71920; line-height: 1; text-align: center; display: block; }
+#product #bottom li .icon-prmanagment::before { content: "\e949"; }
+#product #bottom li .icon-customer::before { content: "\e926"; }
+#product #bottom li .icon-sell::before { content: "\e94e"; }
+#product #bottom li .icon-distribute2::before { content: "\e929"; }
+#product #bottom li .icon-account::before { content: "\e917"; }
+#product #bottom li .icon-bpm::before { content: "\e91b"; }
+#product #bottom li h3 { margin: 0 0 10px 0; font-size: 2.2rem; font-family: karalight; color: #d71920; }
+#product #bottom li p { font-family: karalight; font-size: 1.5rem; height: 105px; text-align: justify; }
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+	#product #post li:nth-child(3n) { margin-left: 0; }
+}
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+	#product #post li:nth-child(3n) { margin-left: 0; }
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+	#product #post li:nth-child(3n) { margin-left: 0; }
+}
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	#head .widthParallel { margin-top: 60px; }
+	#product { padding: 5px; margin-bottom: 0; }
+	#product #bottom [class*="col-sm"] { width: 100%; padding: 10px; border: none; }
+	#product #bottom li { width: 100%; text-align: center; height: auto; border: none; }
+	#product #bottom li [class*="col-"] { width: 100%; }
+	#product #bottom li i { font-size: 4rem; margin-bottom: 10px; }
+	#product #bottom li img { width: 70px; }
+	#product #bottom li p { height: auto; }
+	#product #top .cover { text-align: center; }
+	#product #top img { width: 220px; }
+	#product #top p { margin-top: 20px; width: 100%; }
+	#product #bottom .cover img { width: 100%; }
+	#product h2 { text-align: center; }
+}
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: IranYekan;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../webfonts/iran-yekan-persian/IRANYekanMobileFaNum-Bold.eot');
+    src: url('../webfonts/iran-yekan-persian/IRANYekanMobileFaNum-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/iran-yekan-persian/IRANYekanMobileFaNum-Bold.woff2') format('woff2'),
+    url('../webfonts/iran-yekan-persian/IRANYekanMobileFaNum-Bold.woff') format('woff'),
+    url('../webfonts/iran-yekan-persian/IRANYekanMobileFaNum-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IranYekan;
+    font-style: normal;
+    font-weight: 300;
+    src: url('../webfonts/iran-yekan-persian/IRANYekanMobileFaNum-Light.eot');
+    src: url('../webfonts/iran-yekan-persian/IRANYekanMobileFaNum-Light.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/iran-yekan-persian/IRANYekanMobileFaNum-Light.woff2') format('woff2'),
+    url('../webfonts/iran-yekan-persian/IRANYekanMobileFaNum-Light.woff') format('woff'),
+    url('../webfonts/iran-yekan-persian/IRANYekanMobileFaNum-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IranYekan;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../webfonts/iran-yekan-persian/IRANYekanMobileFaNum.eot');
+    src: url('../webfonts/iran-yekan-persian/IRANYekanMobileFaNum.eot?#iefix') format('embedded-opentype'),
+    url('../webfonts/iran-yekan-persian/IRANYekanMobileFaNum.woff2') format('woff2'),
+    url('../webfonts/iran-yekan-persian/IRANYekanMobileFaNum.woff') format('woff'),
+    url('../webfonts/iran-yekan-persian/IRANYekanMobileFaNum.ttf') format('truetype');
+}

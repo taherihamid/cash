@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contactFix .indent.demo { display: block; }
+.contactFix .indent.demo a { color: #FFF !important; }
+
+.widthParallel { position: relative; }
+#wrraper { background: #323232 url(../../image/screen/home/dd4.jpg) center 8% fixed; background-size: 120% auto; }
+#accounting { margin: 50px auto; direction: rtl; font-size: 1.5rem; line-height: 27px; background-color: #FFF; padding: 50px; }
+#accounting .cover { position: relative; }
+#accounting .cover .arrow { position: absolute; top: 50%; padding: 20px; font-size: 3rem; background-color: #FFF; z-index: 1; }
+#accounting .cover .arrow.right { right: 0; }
+#accounting .cover .arrow.left { left: 0; }
+#accounting h2 { font-size: 2.4rem; font-family: karalight; color: #d71920; margin-top: 0; }
+#accounting hr { border-color: #f55359; }
+#accounting h3 { font-size: 2rem; font-family: karalight; }
+#accounting img { width: 100%; margin-top: 10px; }
+#accounting p { font-family: karalight; text-align: justify; margin-top: 10px; }
+#accounting #bottom { margin-top: 40px; direction: rtl; }
+#accounting #bottom .nav li a { outline: none; border-radius: 0; }
+#accounting #bottom .nav li.active a { border-top: 2px solid #F80000; }
+#accounting #bottom .nav li { float: right; }
+#accounting #bottom ul { padding-right: 30px; font-size: 1.5rem; }
+#accounting #bottom ul li { width: 100%; margin-bottom: 4px; list-style: disc outside; font-family: karalight; }
+#accounting #bottom p { font-family: karalight; line-height: 25px; margin-top: 20px; }
+#accounting #brands { width: 90%; margin: 50px auto; }
+#accounting #brands h2 { margin-bottom: 40px; font-size: 2rem; text-align: center; }
+#accounting #brands .flickity-viewport { height: 80px !important; width: 90%; margin: auto; }
+#accounting #brands ul li { width: 145px; position: relative; height: 80px; margin-left: 20px; text-align: center; }
+#accounting #brands ul li img { width: 55%; }
+#accounting.coming_soon { display: flex; position: relative; direction: ltr; }
+#accounting.coming_soon .centerPos { font-size: 3rem; font-family: karalight; line-height: 50px; text-align: center; width: 90%; }
+#accounting .list_spec { font-family: karalight; list-style: disc inside; margin-right: 20px; }
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+}
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+}
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	#accounting { padding: 10px; margin: 10px auto; }
+	#accounting.widthParallel { width: 100% !important; padding: 25px; }
+	#accounting [class*="col-"] { width: 100%; padding: 0; }
+	#accounting h2 { font-size: 2rem; }
+}
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}

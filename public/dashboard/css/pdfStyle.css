@@ -1,0 +1,32 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+body{
+    line-height: 3;
+}
+td {
+    width: 33%;
+    margin: 20px !important;
+}
+
+tr{
+    margin-top: 10px !important;
+}
+body{ background: #F0F0F0 !important;
+}
+
+.user-image {
+    padding-top: 2px;
+    height: 3cm;
+    width: 2cm;
+}
+

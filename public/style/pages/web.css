@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+.icon_home { background: url(../../image/icon/home/icon.png) no-repeat; display: inline-block; vertical-align: middle; }
+
+#head { padding: 0 !important; position: relative; margin-bottom: 40px !important; }
+#head img { width: 100%; }
+#head .widthParallel { margin-top: 300px; color: #FFF; position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+#head .widthParallel span { position: absolute; bottom: 30px; left: 0; }
+#wrraper .effect { animation: lazy 1.3s both; }
+#wrraper #title h2 { font-size: 2.2rem; margin-bottom: 20px; text-align: center; color: #d71920; font-family: karalight; }
+#wrraper #title #line { border-bottom: 3px solid #838383; position: relative; width: 50px; margin: auto; }
+#wrraper #title #line .fa-angle-down { width: 30px; height: 30px; border: 1px solid #CECECE; text-align: center; line-height: 30px; font-size: 2.3rem; box-shadow: 0 0 8px rgba(0,0,0,.1); position: absolute; left: 0; background-color: #FFF; border-radius: 100%; top: -16px; }
+
+#wrraper { direction: rtl; }
+#wrraper #banner { position: relative; overflow: hidden; }
+#wrraper #banner .carousel-indicators li { width: 13px !important; height: 13px !important; border: 2px solid #fff; margin: 1px !important; background: #8F8F8F; }
+#wrraper #banner .carousel-indicators .active { background: #FFF; }
+#wrraper #banner .item { animation: item 0.6s; }
+#wrraper #banner img { min-width: 100%; min-height: 100%; }
+#wrraper #banner img.center { position: absolute; left: 0; right: 0; bottom: 0; }
+#wrraper #banner #detail { z-index: 1; color: #FFF; text-align: center; }
+#wrraper #banner #detail p { font-size: 2.5rem; }
+#wrraper #banner #detail a { font-size: 2.5rem; display: inline-block; background-color: #ab171f; padding: 11px 25px; margin-top: 20px; font-family: isansIr; }
+#wrraper #banner #detail a:hover { background-color: #dd4b39; }
+#wrraper #banner .carousel-control i { position: absolute; top: 50%; font-size: 5rem; }
+#wrraper #banner .item .detail { position: absolute; top: 40%; color: #FFF; text-align: center; width: 40%; }
+#wrraper #banner .item .detail.right { right: 20%; }
+#wrraper #banner .item .detail.left { left: 20%; }
+#wrraper #banner .item .detail h2 { font-size: 4rem; }
+#wrraper #banner .item .detail p { font-size: 1.7rem; line-height: 25px; }
+
+@keyframes fa-angle-double-down {
+	from{
+        transform: translate(0, 12px)
+	} to{
+        transform: translate(0, 0)
+	}
+}
+
+#wrraper #service { margin-top: 50px; padding: 10px 0 30px 0; }
+#wrraper #service #content { margin: 20px 0 10px 0; }
+#wrraper #service #content .text { font-family: karalight; font-size: 1.26rem; padding: 10px 20px 20px 20px; line-height: 25px; text-align: center;  }
+#wrraper #service #content li { width: 31.7%; float: right; text-align: right; background-color: #FFF; margin-left: 2.3%; overflow: hidden; box-shadow: 0 0 4px rgba(0,0,0,.1); }
+#wrraper #service #content li:last-child { margin-left: 0; }
+#wrraper #service #content li .cover { width: 100%; position: relative; overflow: hidden; }
+#wrraper #service #content li .cover img { width: 100%; transition: .3s; }
+#wrraper #service #content li .cover:hover img { transform: scale(1.2); }
+#wrraper #service #content li .detail { padding: 10px; }
+#wrraper #service #content li .detail h3 { font-size: 1.6rem; margin-bottom: 10px; }
+#wrraper #service #content li .detail p { line-height: 22px; font-size: 1.26rem; text-align: justify; font-family: karalight }
+#wrraper #service #content a { display: inline-block; margin-top: 10px; background: #AB171F; color: #FFF; padding: 10px; font-size: 1.2rem; }
+
+#wrraper #webAbout { margin-top: 50px; padding: 10px 0 30px 0; }
+#wrraper #webAbout #content img { width: 100%; }
+#wrraper #webAbout #content p { font-family: karalight; font-size: 1.26rem; padding: 20px; line-height: 25px; text-align: center; }
+
+#wrraper #webService { margin: 50px 0; padding: 10px 0 30px 0; background-color: #f5f5f5; }
+#wrraper #webService #title h2 { margin-bottom: 40px; }
+#wrraper #webService #content p { font-family: karalight; font-size: 1.26rem; padding: 10px 20px 20px 20px; line-height: 25px; text-align: center; }
+#wrraper #webService #content ul li { width: 32%; float: right; cursor: pointer; background-color: #FFF; padding: 30px 0 20px 0; margin: 0 0 20px 2%; text-align: center; box-shadow: 0 0 4px rgba(0,0,0,.1); }
+#wrraper #webService #content ul li:hover { background-color: #AB171F; }
+#wrraper #webService #content ul li:nth-child(3n) { margin-left: 0; }
+#wrraper #webService #content ul li p { height: 90px; padding: 0 40px; font-size: 1.3rem; margin-top: 10px; position: relative; }
+#wrraper #webService #content ul li .title { font-family: kara; position: relative; font-size: 1.8rem; }
+#wrraper #webService #content ul li .icons i { width: 96px; height: 96px; background: center no-repeat; background-size: 100%; display: inline-block; transition: .3s; margin-bottom: 20px; }
+#wrraper #webService #content ul li a { font-size: 1.1rem; padding: 9px 15px; color: #FFF; background-color: #AB171F; }
+#wrraper #webService #content ul li:hover .icons i { color: #FFF !important; border-color: #FFF !important; }
+#wrraper #webService #content ul li:hover .icons i.i1 { background-image: url(../../image/icon/web/Tarahiweb12.png) !important; }
+#wrraper #webService #content ul li:hover .icons i.i2 { background-image: url(../../image/icon/web/Mobtanibarweb1-2.png) !important; }
+#wrraper #webService #content ul li:hover .icons i.i3 { background-image: url(../../image/icon/web/robot2-2.png) !important; }
+#wrraper #webService #content ul li:hover .icons i.i4 { background-image: url(../../image/icon/web/Mobil3-2.png) !important; }
+#wrraper #webService #content ul li:hover .icons i.i5 { background-image: url(../../image/icon/web/Poshtibani3-2.png) !important; }
+#wrraper #webService #content ul li:hover .icons i.i6 { background-image: url(../../image/icon/web/seo1-2.png) !important; }
+#wrraper #webService #content ul li:hover .icons i.i7 { background-image: url(../../image/icon/web/Logodesign1-2.png) !important; }
+#wrraper #webService #content ul li:hover .icons i.i8 { background-image: url(../../image/icon/web/Shabakehejtemaee1-2.png) !important; }
+#wrraper #webService #content ul li:hover .icons i.i9 { background-image: url(../../image/icon/web/branding2-2.png) !important; }
+#wrraper #webService #content ul li:hover { color: #FFF; }
+/*#wrraper #webService #content ul li:hover a { visibility: hidden; }*/
+
+@keyframes item {
+	from{
+		opacity: 0;
+	} to{
+        opacity: 1;
+	}
+}
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+}
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+}
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	#wrraper #banner { margin-top: 51px; }
+	#wrraper #title h2 { font-size: 1.8rem; margin-bottom: 10px; }
+	#wrraper #banner .item img { filter: blur(4px); }
+	#wrraper #banner .item .detail { width: 100%; text-shadow: 0 0 3px rgba(0,0,0,.6); left: 0 !important; right: 0 !important; top: 6%; z-index: 1; }
+	#wrraper #banner .item .detail h2 { font-size: 1.6rem; margin-bottom: 4px; }
+	#wrraper #banner .item .detail p { font-size: 1.3rem; line-height: 18px; padding: 0 40px; }
+	#wrraper #banner .carousel-control i { font-size: 2rem; }
+	.carousel-control.right i { right: 5px; }
+	.carousel-control.left i { left: 5px; }
+	#wrraper #webAbout { margin-top: -20px; }
+	#wrraper #webService #content ul li { width: 100%; margin: 10px 0; }
+	#wrraper #service { margin-top: 0; }
+	#wrraper #service #content li { width: 100%; margin: 10px 0; }
+	
+}
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}

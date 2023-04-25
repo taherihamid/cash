@@ -1,0 +1,104 @@
+/********** INITIALIZE ************************************************************************************************/
+body {
+    font-family: IranYekan, IranRoboto;
+    font-size: 14px;
+    background: #050E1D;
+    color: #fff;
+    direction: rtl;
+    padding: 25px 0;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover {
+    -webkit-transition: color 0.5s, background 0.5s, -webkit-transform 0.5s;
+    -moz-transition: color 0.5s, background 0.5s, -moz-transform 0.5s;
+    -o-transition: color 0.5s, background 0.5s, -o-transform 0.5s;
+    -ms-transition: color 0.5s, background 0.5s, -ms-transform 0.5s;
+    transition: color 0.5s, background 0.5s, transform 0.5s;
+}
+
+.relative {
+    position: relative;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.icon {
+    display: inline-block;
+    background-size: cover !important;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
+.top-z-index {
+    z-index: 999999999999;
+}
+
+/********** STYLE ******************************************************************************************************/
+
+#details {
+    font-size: 12px;
+    color: #82868E;
+}
+
+#article, blockquote {
+    font-size: 14px !important;
+    color: #82868E !important;
+    text-align: justify !important;
+    line-height: 29px !important;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}
+
+h1 {
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 29px;
+}
+
+a {
+    font-size: 14px !important;
+    color: #82868E !important;
+}
+
+li {
+    list-style: none;
+}
+
+#main-content {
+    position: relative !important;
+    white-space: pre-line;
+}
+
+#main-content * {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    border-width: 1px !important;
+    text-align: right;
+}

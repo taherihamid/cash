@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+}
+
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+}
+
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+    footer #content .title { font-size: 1.4rem; }
+    footer #social ul li { padding: 3px; }
+}
+
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+.show-xs { display: block; }
+.widthParallel { width: 87%; }
+#wrraper #head { padding: 10px; font-size: 2rem; padding: 0; text-align: right; margin-top: 63px; }
+#wrraper #head.simple { padding-top: 20px; }
+#wrraper #head .widthParallel { margin: 0; }
+#wrraper #head .widthParallel span { bottom: 10px; }
+#demoModal #content { width: 100%; top: 0; left: 0; right: 0; bottom: 0; transform: none; position: fixed; overflow: auto; }
+#demoModal #content ul li { margin: 0 !important; }
+#demoModal #content ul li [class*="col-"] { padding: 0; width: 100%; margin-bottom: 25px; }
+.contactFix.demo { top: 57%; }
+
+.contactFix .indent img { width: 23px; }
+.contactFix .indent i { font-size: 1.9rem; }
+.contactFix .indent { width: 45px; padding: 6px 0; }
+
+#contactModal #content { width: 100%; display: block; top: 0; bottom: 0; right: 0; left: 0; transform: none; }
+#contactModal #content [class*="col-"] { padding: 0; margin: 0; }
+#contactModal #content #detail { border: none; margin-bottom: 20px; text-align: center; }
+#contactModal #content .icons { font-size: 3rem; }
+
+#searchModal #content { width: 95%; }
+
+footer { padding: 11px; }
+footer #content { margin-top: 10px; }
+footer #content ul { padding-right: 10px; }
+footer #content #newslatter { margin-top: 20px; }
+footer #content #newslatter ul { padding: 0; }
+footer #newslatter ul li { padding: 0; }
+footer #newslatter ul li i { font-size: 1.7rem; }
+footer #newslatter ul li span { display: inline-block; height: 40px; float: right; }
+footer #content .title { margin-top: 30px; }
+footer #bottom { text-align: center; }
+footer #bottom ul li { float: none; display: inline-block; }
+footer #bottom #cr { text-align: center; margin-top: 20px; }
+footer .icons { bottom: 0; }
+}
+
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}

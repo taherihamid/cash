@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.widthParallel { width: 88%; max-width:1170px; }
+
+.container { width:100%; padding:0; margin:0; }
+
+.centerBox {  float: none; }
+
+.cl { clear: both; }
+
+.form-input { position: relative; }
+.form-input .text-style { width:100%; padding: 6px; background-color: #FFF; border: 1px solid #ccc; font-size: 1.3rem; outline: none; }
+.form-input .icon-inputs { width: 30px; height: 30px; position: absolute; top: 0; left: 0 !important; bottom: 0; margin: auto; border-radius: 10px; background-color: CDE5F2; transform: scale(.8); }
+.form-ltr .text-style { text-align: left; padding-left: 40px !important; direction: ltr !important; }
+.form-rtl .text-style {text-align: right;padding-right: 40px !important;direction: rtl !important;}
+.form-ltr .icon-inputs { right:0; }
+.form-rtl .icon-inputs { left: 10px !important; }
+.form-rtl .material-icons {
+	position: absolute;
+	font-size: 1.7rem;
+	top: 0;
+	bottom: 0;
+	right: 13px;
+	margin: auto;
+	height: 17px;
+	color: #B6B6B6;
+	width: 20px;
+	text-align: center;
+}
+
+.checkbox input[type=checkbox] { display: none; }
+.checkbox input[type=checkbox] + span:before { content: url("../../image/icon/form/checkbox.png"); position: relative; top: 3px; margin-left: 5px; cursor: pointer;animation: light-effect 0.3s ease; }
+.checkbox input[type=checkbox]:checked + span:before { content: url("../../image/icon/form/checkbox2.png"); cursor: pointer; }
+
+.btn-submit { padding: 0 15px; font-size: 1.4rem; height:43px; background: #8c0000; color: #FFF; border: none; border-radius: 2px; border: 1px solid transparent; transition: 0.3s; margin: 10px 0 10px 0; }
+.btn-secend { background: #c2b8a7; }
+
+.no-padding { padding: 0; }
+.no-padding-left { padding-left: 0; }
+.no-padding-right { padding-right: 0; }
+
+.no-margin { margin: 0 !important; }
+.no-margin-left { margin-left: 0 !important; }
+.no-margin-right { margin-right: 0 !important; }
+
+.form-input .select-style { width:100%; padding: 12px; border: none; border-radius: 5px; background-color: #FFF; box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1); font-size: 1.3rem; outline: none; appearance: none; -webkit-appearance: none; -moz-appearance: none; }
+.form-input .textarea-style { width:100%; padding: 12px; border: none; border-radius: 5px; background-color: #FFF; font-size: 1.3rem; outline: none; box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1); direction: rtl; }
+
+.centerPos { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+.centerPosi { position: absolute; left: 0; top: 0; bottom: 0; right: 0; margin: auto; }

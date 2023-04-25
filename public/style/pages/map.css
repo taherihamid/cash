@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+.widthParallel { position: relative; }
+
+#map { margin: 50px auto; direction: rtl; border: 1px solid #DDD; display: flex; font-size: 1.4rem; line-height: 27px; font-family: karalight; }
+#map .navTabs { border-left: 1px solid #DDD; }
+#map .navTabs li a { width: 100%; display: block; padding: 10px; border-bottom: 1px solid #DDD; }
+#map .navTabs li.active { background-color: #EEE; }
+#map .tab-content { padding: 20px; }
+#map .tab-content ul li { padding: 4px 0; }
+#map .tab-content ul .labels { font-family: kara; letter-spacing: 2px; font-size: 1.6rem; margin-bottom: 10px; display: block; }
+#map .tab-content ul #dropDown { font-size: 1.3rem; }
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+}
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+}
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+}
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}

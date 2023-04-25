@@ -1,0 +1,20 @@
+@font-face {
+	font-family:kara;
+	font-style:normal;
+	font-weight:400;
+	src:url(../../assets/fonts/font/kara/regular/SGKara-Regular.eot);
+	src:url(../../assets/fonts/font/kara/regular/SGKara-Regular.eot?#iefix) format("embedded-opentype"),
+	url(../../assets/fonts/font/kara/regular/SGKara-Regular.woff2) format("woff2"),
+	url(../../assets/fonts/font/kara/regular/SGKara-Regular.woff) format("woff"),
+	url(../../assets/fonts/font/kara/regular/SGKara-Regular.ttf) format("truetype")
+}
+@font-face {
+	font-family:karalight;
+	font-style:normal;
+	font-weight:400;
+	src:url(../../assets/fonts/font/kara/light/SGKara-Light.eot);
+	src:url(../../assets/fonts/font/kara/light/SGKara-Light.eot?#iefix) format("embedded-opentype"),
+	url(../../assets/fonts/font/kara/light/SGKara-Light.woff2) format("woff2"),
+	url(../../assets/fonts/font/kara/light/SGKara-Light.woff) format("woff"),
+	url(../../assets/fonts/font/kara/light/SGKara-Light.ttf) format("truetype")
+}

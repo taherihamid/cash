@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { background-color: #eaeff3; }
+
+
+@font-face {
+	font-family: iryekanregular;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../../assets/fonts/font/eot/iranyekanwebregular.eot');
+	src: url('../../assets/fonts/font/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../../assets/fonts/font/woff2/iranyekanwebregular.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../../assets/fonts/font/woff/iranyekanwebregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../../assets/fonts/font/ttf/iranyekanwebregular.ttf') format('truetype');
+}
+
+#content { margin:auto; text-align:right; direction:rtl; width: 540px; text-align: center; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+#content #detail { margin-bottom: 30px; }
+#content #detail h1 { font-size: 18rem; font-family: arial; margin: 0; padding: 0; }
+#content #detail p { margin: 0; padding: 0;  margin: -5px 0 0 0; display: block;}
+#content li { list-style:none; padding:10px 60px 10px 30px; color:#FFF; background: #333 url(../../image/icon/404/home.png) 85% 45% no-repeat; background-size: 25px; transition:0.3s; font-size:1.6rem; display: inline-block; margin-top: 10px; border-radius: 100px; }
+
+
+
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+#content { width: 95%; }
+#content #detail h1 { font-size: 12rem; }
+#content .search input[type="submit"] { width: 14%; }
+}

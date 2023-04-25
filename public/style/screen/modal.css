@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+.modal-open { margin: 0 !important; padding: 0 !important; }
+.modal .modal-content { padding: 20px; direction: rtl; }
+.modal .modal-content .content-head { margin-bottom: 20px; }
+.modal .modal-content .content-head #title { font-size: 1.6rem; font-family: isansbold; }
+.modal #closeModal { position: absolute; left: -16px; top: -20px; background-color: #c54545; opacity: 1; color: #FFF; border-radius: 100%; width: 35px; height: 35px; line-height: 47px; border: none; padding: 0; border: 3px solid #FFF; }
+.modal .modal-content .content-body .indent { margin-bottom: 10px; }

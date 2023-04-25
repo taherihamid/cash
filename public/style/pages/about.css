@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+.widthParallel { position: relative; }
+#about { margin: 50px auto; direction: rtl; font-size: 1.4rem; line-height: 27px; }
+#about #right { transition: .3s; }
+#about #right #content { border-left: 1px solid rgb(230, 230, 230); }
+#about #right.fixed { position: fixed; top: 70px; width: 292.5px; }
+#about #right #switch { position: absolute; width: 40px; height: 40px; background: #AB171F; border: none; right: 219px; top: 40%; border-radius: 4px 0 0 4px; color: #FFF; }
+#about #right #links li { border-bottom: 1px solid rgb(230, 230, 230); padding: 10px 7px; font-size: 1.3rem; cursor: pointer; }
+#about #right #links li:hover { background-color: #f5f5f5; transition: .3s; }
+#about #right #links li:last-child { border-bottom: none; }
+#about #right #links li.active { background-color: #AB171F; color: #FFF; }
+#about #left { font-family: karalight; font-size: 1.4rem; text-align: justify; padding: 0 40px 0 0; }
+#about #left hr { margin: 50px 0 30px 0; }
+#about #left .img { text-align: center; }
+#about #left .img img { width: 100%; }
+#about #left .listQuick { margin-right: 50px; list-style: disc outside; }
+#about #left .listQuick li { font-size: 1.5rem; margin-bottom: 5px; }
+#about #left h3 { font-size: 2.4rem; }
+#about #left p { font-size: 1.5rem; }
+#about #left .title { margin: 10px 0; font-size: 1.7rem; font-family: karalight; }
+#about #left #history img { width: 100%; margin: 0 16px 10px 0; }
+#about #left #history ul li { padding: 14px 0; border-top: 1px solid #DDD; }
+#about #left #history ul li:first-child { padding-top: 0; border: none; }
+#about #left #history ul li:nth-child(2) { animation-delay: .1s; }
+#about #left #history ul li:nth-child(3) { animation-delay: .2s; }
+#about #left #history ul li:nth-child(4) { animation-delay: .3s; }
+#about #left #history ul li:nth-child(5) { animation-delay: .4s; }
+#about #left #history ul li:nth-child(6) { animation-delay: .5s; }
+#about #left #history ul li b { color: #AB171F; }
+#about #left #responsibility ul li { margin-top: 20px; }
+#about #left #admins ul li { width: 25%; position: relative; overflow: hidden; cursor: pointer; float: right; margin-left: 2%; }
+#about #left #admins ul li:hover .white { opacity: 0; }
+#about #left #admins ul li:hover .detail { color: #FFF; }
+#about #left #admins ul li:hover .detail { padding: 14px; }
+#about #left #admins ul li:hover .detail b { font-size: 1.9rem; }
+#about #left #admins ul li:hover .detail span { font-size: 1.3rem; }
+#about #left #admins ul li:hover img { filter: blur(2px); }
+#about #left #admins ul li .white { transition: .4s; position: absolute; left: 0; right: 0; bottom: 0; top: 0; background: url(../../image/screen/about/white.png) no-repeat; background-size: 100% 100%; }
+#about #left #admins ul li .detail { transition: .4s; position: absolute; left: 0; right: 0; bottom: 0; padding: 5px; line-height: 20px; }
+#about #left #admins ul li .detail b { display: block; font-size: 1.4rem; transition: .3s; }
+#about #left #admins ul li .detail span { font-size: 1.15rem; transition: .3s; }
+#about #left #admins ul li img { width: 100%; transition: .4s; }
+#about #left #company .flickity-viewport { height: 210px !important; width: 90%; margin: auto; }
+#about #left #company h3 { margin-bottom: 30px; }
+#about #left #company ul li { width: 245px; position: relative; height: 80px; margin-left: 50px; text-align: center; }
+#about #left #company ul li .cover { width: 100px; height: 100px; border-radius: 100%; margin: auto; position: relative; border: 1px solid #DDD; }
+#about #left #company ul li .cover img { width: 70px; }
+#about #left #company ul li b { margin-top: 10px; display: block; font-size: 1.5rem; }
+#about #left #company ul li p { font-size: 1.2rem; line-height: 19px; }
+#about #left .marginRight { margin-right: 40px; }
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+}
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+}
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	#about { width: 100% !important; padding: 20px; margin: 20px 0 0 0; }
+	#about hr { margin: 10px 0; }
+	#about #left { padding: 0; }
+	#about #left hr { margin: 20px 0 0 0; }
+	#about #left .listQuick { margin: 0px 12px 0 0; }
+	#about #left #history img { margin: 0 0 20px 0; }
+	#about #right { position: fixed; bottom: 0; left: 0; right: 0; background-color: #FFF; z-index: 1; width: 100%; padding: 0; box-shadow: 0 -3px 4px rgba(0, 0, 0, 0.1); }
+	#about #right ul { display: flex; }
+	#about #right #links li { border: none; vertical-align: middle; border-left: 1px solid #F2F2F2; padding: 10px; font-size: 1.1rem; width: 25%; float: right; text-align: center; line-height: 20px; }
+	#about #left #admins ul li { width: 50%; margin: 0; }
+	#about #left #company ul li { width: 160px; }
+	#about [class*="col-"] { width: 100%; padding: 0; }
+	#about #left .marginRight { margin: 0; }
+}
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}

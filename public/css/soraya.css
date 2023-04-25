@@ -1,0 +1,9 @@
+@font-face {
+    font-family: soraya;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../webfonts/soraya/ASoraya.eot');
+    src: url('../webfonts/soraya/ASoraya.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+    url('../webfonts/soraya/ASoraya.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../webfonts/soraya/ASoraya.ttf') format('truetype');
+}

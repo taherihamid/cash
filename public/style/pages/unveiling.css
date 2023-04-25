@@ -1,0 +1,39 @@
+#wrraper .containers { font-family: karalight; text-align: justify; font-size: 1.8rem; width: 90%; margin: 0 auto 20px auto; }
+#wrraper .containers .title { font-size: 2.4rem; margin-bottom: 10px; }
+#wrraper .containers ul { list-style: disc inside; margin-right: 40px; }
+#wrraper .containers .mright { margin-right: 40px; }
+
+#wrraper .spec_word_a { font-size: 2.2rem; line-height: 34px; width: 90%; margin: 40px auto; text-align: justify; }
+#wrraper .spec_word_b { font-size: 2rem; display: block; margin-bottom: 10px; }
+
+.width_paragraph { width: 70%; margin: 0 auto 100px auto; }
+.more_link { color: #FFF !important; display: inline-block; padding: 10px 20px; background: #AB171F; margin-top: 45px; }
+#list li { list-style: none; display: flex; margin-bottom: 80px; }
+#list li .desc { width: 50%; position: relative; }
+#list li .desc .BottomPos { width: 85%; position: absolute; margin: auto; left: 0; right: 0; bottom: 0; text-align: center; }
+#list li .desc .BottomPos p { text-align: justify; margin: 0; }
+#list li .desc .BottomPos hr { margin: 10px 0; border-color: #333; }
+#list li .desc .BottomPos img { width: 100%; margin-bottom: 10px; }
+/* #list li .desc.pull-right p { padding-left: 30px; }
+#list li .desc.pull-left p { padding-right: 30px; } */
+#list li .cover { width: 50%; }
+#list li .cover img { width: 100%; }
+
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    #category { padding: 0; }
+    #wrraper .spec_word_a {  font-size: 1.6rem; line-height: 28px; margin-top: 0; width: 100%; }
+    #wrraper ul { padding: 0; margin: 0; list-style: outside !important; }
+    #wrraper .containers { width: 100%; padding: 0 15px; font-size: 1.5rem; margin-bottom: 10px; }
+    #wrraper .containers .containers { padding: 0; }
+    #wrraper .containers .mright { margin-right: 0; }
+    #wrraper .containers .title { font-size: 1.9rem; }
+
+    .width_paragraph { width: 100%; margin-bottom: 30px; }
+    .more_link { padding: 10px; margin-top: 10px; }
+    #list { margin: 0 !important; }
+    #list li { display: block; margin-bottom: 20px }
+    #list li .desc { width: 100%; }
+    #list li .cover { width: 100%; }
+    #list li .desc .BottomPos { position: static; width: 100%; margin-top: 20px; }
+}

@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+.widthParallel { position: relative; }
+#demo textarea { padding: 10px !important; }
+#demo { margin: 50px auto; direction: rtl; font-size: 1.4rem; line-height: 27px; font-family: karalight; }
+#demo .col { border: 1px solid #e6e6e6; font-size: 1.4rem; padding: 10px; margin-bottom: 20px; display: flex; }
+#demo .col b { color: #d50000; margin-left: 5px; }
+#demo .col img { width: 90%; }
+#demo .col span { display: block; }
+#demo .col ul li { line-height: 29px; }
+#demo .col .icon-sell::before { content: "\e94e"; }
+#demo .col .cover { text-align: center; border-left: 1px solid #e6e6e6; }
+#demo .col .cover .centerPos { width: 90px; height: 90px; border-radius: 22px; font-weight: bold; }
+#demo .para { display: inline !important; margin-right: 4px; vertical-align: top; font-family: karalight; font-weight: normal !important; }
+#demo [type="checkbox"] { vertical-align: middle; margin-top: -2px; }
+#demo #desc img {width: 100%;margin-top: 62px;}
+
+#demo #form { margin-top: 35px; }
+#demo #form p { font-size: 1.5rem; margin-bottom: 30px; }
+#demo #form ul li {margin-bottom: 15px;position: relative;/* margin-top: -5%; */}
+#demo #form ul li span { display: inline-block; font-size: 1.5rem; }
+#demo #form ul li .red { color: red; position: relative; top: 5px; }
+#demo #form ul li .textstyle { width: 100%; border: 1px solid #ccc; padding: 6px 10px; }
+#demo #form button {padding: 10px 20px;/* margin-top: 40px; */background-color: #AB171F;color: #FFF;border: none;}
+#demo #form ul #cpatcha .text-style { width: 110px; padding-right: 10px !important; }
+#demo #form ul li img { width: 170px; margin-bottom: 10px; }
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+}
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+}
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	.widthParallel { width: 100% !important; padding: 0 30px !important; margin: auto; }
+	#demo { padding: 10px; margin: 10px 0; }
+	#demo #googleMap { height: 230px; }
+	#demo .col-sm-6 { width: 100%; padding: 0; margin-bottom: 20px; }
+	#demo #form { margin: 0; }
+	#demo ul { padding: 0; }
+	#demo #desc img { margin: 0; }
+	#demo #form p { margin-bottom: 20px !important; }
+}
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}

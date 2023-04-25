@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+#article { margin: 20px auto; direction: rtl; font-size: 1.5rem; line-height: 24px; }
+#article #right { width: 28%; border: 1px solid #DDD; border-bottom: none; border-right: none; padding: 0; transition: .3s; }
+#article #right #switch { position: absolute; width: 50px; height: 50px; background: #AB171F; border: none; border-radius: 100%; right: 258px; bottom: 20px; font-size: 1.8rem; color: #FFF; }
+#article #right #links li { border-bottom: 1px solid #DDD; padding: 10px 7px; font-size: 1.4rem; }
+#article #right #contact { padding: 30px 7px; margin-top: 30px; }
+#article #right #contact b { font-size: 1.8rem; }
+#article #right #contact span { font-family: karalight; font-size: 1.4rem; }
+#article #right #contact ul li { margin-top: 10px; position: relative; }
+#article #right #contact ul li span { margin-bottom: 5px; font-weight: bold; }
+#article #right #contact ul li .red { color: red; position: relative; top: 4px; }
+#article #right #contact ul li .styleInput { width: 100%; font-size: 1.4rem; padding: 8px; border: 1px solid #CCC; margin-top: 2px; }
+#article #right #contact ul #cpatcha img { width: 180px; margin-bottom: 5px; }
+#article #right #contact ul #cpatcha .text-style { padding-right: 10px !important; width: 110px; }
+#article #right #contact ul button { border: none; margin-top: 20px; padding: 10px 20px; font-size: 1.4rem; color: #FFF; background-color: #AB171F; }
+#article #left { width: 72%; font-family: karalight; text-align: justify; padding: 0 50px 0 0; }
+#article #left .img { text-align: center; margin-top: 40px; }
+#article #left .img img { width: 50%; }
+#article #left ul li h2 { font-size: 1.8rem; font-weight: bold; }
+#article #left .listQuick { list-style: disc inside; margin-right: 60px; }
+#article #left .listQuick li { }
+#article #left .title { margin-top: 20px; font-size: 2.5rem; font-weight: bold; color: #d71920; }
+#article #left #main li { width: 100%; margin-bottom: 40px; }
+#article #left #main h3 { margin-top: 5px; font-size: 2.4rem; }
+#article #left #main h3 img { width: 40px; }
+#article #left #main p { font-size: 1.5rem; line-height: 28px; }
+#article #left #main .cover { width: 10%; margin-top: 10px; }
+#article #left #main .cover img { width: 100%; }
+#article #left #main .text { width: 88%; }
+#article #left #main .text a { background-color: #AB171F; color: #FFF; font-size: 1.2rem; padding: 5px 10px; font-family: kara; margin-top: 5px; display: inline-block; }
+#article #left #main .text a .fas { vertical-align: middle; position: relative; right: 3px; top: 2px; }
+#rc-anchor-container { width: 220px !important; float: right; }
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+}
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+}
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	#article #left .title { font-size: 2.2rem; }
+	#article #left { width: 100%; padding: 10px; }
+	#article #left .img img { width: 290px; }
+	#article #left #main .text { width: 100%; }
+	#article #left #main .cover { display: none; }
+	#article #left #main h3 { font-size: 2rem; }
+	#article #left #main h3 img { width: 40px; margin-left: 13px; }
+	#article #left .listQuick { margin-right: 0; }
+	#article #right { position: fixed; z-index: 17; padding: 0; top: 0; background: #FFF; bottom: 0; right: -240px; width: 240px; }
+	#article #right.switch { right: 0; }
+	#article #right .g-recaptcha { transform: scale(.7) translate(47px, 0px); }
+	#article #right #content { width: 240px; padding: 0; overflow: auto; margin-top: 0; position: absolute; top: 0; bottom: 0; }
+	#article #right #contact { margin-top: 0; padding: 12px 17px; }
+	#article #right #contact b { font-size: 1.5rem; font-weight: normal; margin-bottom: 10px; display: block; font-family: karalight; }
+	#article #right #contact ul li { margin-top: 5px; }
+	#article #right #contact ul li span { font-family: karalight; font-weight: normal; }
+	#article #right #links li { padding: 8px 14px; overflow: auto; font-family: karalight; font-weight: normal; }
+}
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}

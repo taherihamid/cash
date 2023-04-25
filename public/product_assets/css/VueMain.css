@@ -1,0 +1,30 @@
+.banner {
+    max-width:1050px;
+    max-height: 300px;
+    text-align: center;
+    border: 2px solid #f0f0f0;
+
+    margin: auto;
+    padding-top:10px;
+    padding-bottom:25px;
+}
+.banner-text{
+
+    font-weight:300;
+    font-size:17px;
+}
+
+.banner-header{
+
+    font-size: 2.5em;
+}
+
+.btn-danger.btn-outline{
+    margin-top:10px;
+    background-color:transparent;
+    color: #d9534f;
+    padding-left:70px;
+    padding-right:70px;
+    font-weight:300;
+
+}

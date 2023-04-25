@@ -1,0 +1,147 @@
+#file-uploader-container {
+    position: relative;
+    padding-top: 20px !important;
+}
+
+#file-uploader-container #file-uploader-btn {
+    display: none;
+}
+
+#file-uploader-container #file-uploader-btn + label {
+    background: #27AF56;
+    border-radius: 6px;
+    line-height: 36px;
+    display: block;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    margin: 0;
+}
+
+#file-uploader-container .uploader-progressbar {
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.10);
+    border-radius: 6px;
+    line-height: 36px;
+    height: 36px;
+    padding: 0;
+    font-size: 14px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+#file-uploader-container .uploader-progressbar .file-name {
+    color: #333333;
+}
+
+#file-uploader-container .uploader-progressbar > div {
+    z-index: 20;
+}
+
+#file-uploader-container .uploader-progressbar .progressbar {
+    position: absolute;
+    height: 36px;
+    z-index: 0;
+
+    -webkit-transition: width 0.5s;
+    -moz-transition: width 0.5s;
+    -o-transition: width 0.5s;
+    -ms-transition: width 0.5s;
+    transition: width 0.5s;
+}
+
+#file-uploader-container .uploader-progressbar.uploading .progressbar {
+    opacity: 0.6;
+    background: #FFBF00;
+}
+
+#file-uploader-container .uploader-progressbar.uploading .status {
+    color: #A97F00;
+}
+
+#file-uploader-container .uploader-progressbar.error .progressbar, #file-uploader-container .uploader-progressbar.exceed .progressbar {
+    opacity: 0.21;
+    background: #FF0000;
+}
+
+#file-uploader-container .uploader-progressbar.error .status, #file-uploader-container .uploader-progressbar.exceed .status {
+    color: #B04B4B;
+}
+
+#file-uploader-container .uploader-progressbar.success .progressbar {
+    opacity: 0.21;
+    background: #68F637;
+}
+
+#file-uploader-container .uploader-progressbar.success .status {
+    color: #3B8323;
+}
+
+#file-uploader-container .uploader-progressbar .action-btn {
+    padding: 0;
+    margin: 0;
+    line-height: 36px;
+    height: 36px;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none;
+}
+
+#file-uploader-container .uploader-progressbar.uploading .action-btn {
+    display: inline-block;
+    background: url("../../img/admin/ic-close-black.svg") no-repeat center;
+    width: 12px;
+    height: 36px;
+    background-size: contain !important;
+}
+
+#file-uploader-container .uploader-progressbar.error .action-btn:before {
+    content: 'تلاش دوباره';
+    font-size: 13px;
+    color: #B04B4B;
+    display: inline-block;
+    border: 1px solid #B04B4B;
+    border-radius: 4px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 8px;
+}
+
+.action-btn:before, #file-uploader-container .uploader-progressbar.exceed .action-btn {
+    display: none;
+}
+
+#file-uploader-container .uploader-progressbar.success .action-btn:before {
+    content: 'خب';
+    font-size: 13px;
+    color: #3B8323;
+    display: inline-block;
+    border: 1px solid #3B8323;
+    border-radius: 4px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 8px;
+}
+
+#file-uploader-container .uploader-progressbar.uploading .status:before {
+    display: inline-block;
+    content: 'در حال انتظار برای بارگزاری';
+}
+
+#file-uploader-container .uploader-progressbar.error .status:before {
+    display: inline-block;
+    content: 'توقف در بارگزاری';
+}
+
+#file-uploader-container .uploader-progressbar.exceed .status:before {
+    display: inline-block;
+    content: 'حجم فایل بیش از حد مجاز است';
+}
+
+#file-uploader-container .uploader-progressbar.success .status:before {
+    display: inline-block;
+    content: 'با موفقیت آپلود';
+}

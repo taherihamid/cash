@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contactFix .indent.demo { display: block; }
+
+#journal {margin: 50px auto;direction: rtl;/* font-size: 1.1rem; */line-height: 23px;}
+#journal .widthParallel { max-width: 800px; }
+#journal #top { font-family: karalight; margin-bottom: 50px; }
+#journal #top img { width: 100%; }
+#journal #top .text { font-size: 1.4rem; }
+#journal #top .text .title { font-family: kara; font-family: karalight; font-size: 2.2rem; color: #d71920; margin-bottom: 20px; display: block; }
+#journal #top .text .title.secend { font-size: 1.7rem; }
+#journal #top p { text-align: justify; line-height: 1.9; font-size: 1.5rem; line-height: 32px; }
+#journal #top a { color: #FFF; background-color: #ab171f; padding: 10px; font-size: 1.2rem; font-family: kara; display: inline-block; margin-top: 10px; }
+#journal #top ul { padding-right: 40px; width: 90%; margin: auto; }
+#journal #top ul li { list-style: disc outside; font-size: 1.5rem; margin-bottom: 10px; }
+#journal h2 { font-size: 1.9rem; border-bottom: 1px solid rgb(192, 192, 192); padding-bottom: 10px; margin-bottom: 20px; }
+#journal #post { margin: 40px 0; }
+#journal #post li { width: 49%; float: right; text-align: right; margin: 0 0 25px 0; border: 1px solid #DDD; padding: 4px; }
+#journal #post li:nth-child(2n) { float: left; }
+#journal #post li .cover { width: 42%; float: right; }
+#journal #post li .cover img { width: 100%; }
+#journal #post li .detail { width: 56%; float: left; }
+#journal #post li .detail h3 { font-size: 1.5rem; margin: 10px 0 5px 0; }
+#journal #post li .detail p { font-size: 1.2rem; line-height: 20px; font-family: karalight; text-align: justify; padding-left: 10px; }
+#journal #post li .detail hr { width: 50px; border-bottom: 2px solid #333; }
+#journal #post li .detail a { color: #FFF; background-color: #ab171f; display: inline-block; float: right; padding: 6px 20px; margin-top: 4px; font-size: 1.2rem; }
+#journal #bottom { padding-top: 10px; }
+#journal #bottom li { width: 49%; float: right; margin-bottom: 40px; }
+#journal #bottom li:nth-child(2n) { float: left; }
+#journal #bottom li i { font-family: icon; font-style: normal; font-size: 8rem; color: #d71920; line-height: 1; text-align: center; display: block; }
+#journal #bottom li .icon-prmanagment::before { content: "\e949"; }
+#journal #bottom li .icon-financial::before { content: "\e930"; }
+#journal #bottom li .icon-sell::before { content: "\e94e"; }
+#journal #bottom li .icon-distribute2::before { content: "\e929"; }
+#journal #bottom li h3 { margin: 0 0 10px 0; font-size: 1.7rem; color: #d71920; }
+#journal #bottom li p { font-family: karalight; font-size: 1.4rem; }
+
+#journal #customer { width: 98%; max-width: 1000px; margin: 30px auto; text-align: center; }
+#journal #customer .title { font-size: 2rem; font-family: karalight; margin-bottom: 40px; color: #d71920; }
+#journal #customer ul li { width: 200px; height: 200px !important; margin: 5px; border: 1px solid #DDD; border-radius: 100%; vertical-align: top; display: inline-block; }
+#journal #customer ul li .logo { height: 100px; position: relative; margin-top: 25px; }
+#journal #customer ul li .logo img { height: 65px; }
+#journal #customer ul li .logo img.ehsan { height: 30px; border-radius: 5px; }
+#journal #customer ul li span { font-size: 1.3rem; width: 65%; display: block; margin: auto; }
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+	#journal #post li:nth-child(4n) { margin-left: 0; }
+}
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+	#journal #post li:nth-child(4n) { margin-left: 0; }
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+	#journal #post li:nth-child(4n) { margin-left: 0; }
+}
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	#head .widthParallel { margin-top: 60px; }
+	#journal { margin: 30px auto; }
+	#journal { padding: 5px; }
+	#journal #customer { margin: 0; }
+	#journal #customer .title { font-size: 1.8rem; line-height: 27px; }
+	#journal #customer ul li { width: 150px; height: 150px !important; }
+	#journal #customer ul li .logo { margin-top: 10px; }
+	#journal #customer ul li .logo img { height: 55px; }
+	#journal #customer ul li span { font-size: 1.1rem; margin-top: -16px; }
+	#journal #post li { width: 100%; margin: 0 0 10px 0; }
+	#journal #post li .cover { width: 100%; margin-bottom: 10px; }
+	#journal #post li .detail { width: 100%; }
+	#journal #post li:nth-child(2n) { float: left; }
+	#journal #post li h3 { height: auto; font-size: 1.4rem; line-height: normal; }
+	#journal #bottom li { width: 100%; text-align: center; }
+	#journal #bottom li [class*="col-"] { width: 100%; }
+	#journal #bottom li i { font-size: 4rem; margin-bottom: 10px; }
+	#journal #bottom li p { height: auto; }
+	#journal #top { margin-bottom: 10px; }
+	#journal #top ul { padding: 20px; width: 100%; }
+	#journal #top .cover { text-align: center; }
+	#journal #top img { width: 220px !important; }
+	#journal #top p { margin-top: 5px; font-size: 1.3rem !important; line-height: 23px; }
+	#journal #top br { display: none; }
+}
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}

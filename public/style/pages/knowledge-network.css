@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrraper #contact { padding: 50px 0; }
+#wrraper #contact #right { width: 68%; }
+#wrraper #contact #right #post li { width: 47%; float: right; direction: rtl; position: relative; text-align: right; margin: 0 0 20px 3%; height: 410px; overflow: hidden; }
+#wrraper #contact #right #post li:nth-child(2n) { margin-left: 0; }
+#wrraper #contact #right #post li .cover { overflow: hidden; }
+#wrraper #contact #right #post li .cover img { width: 100%; transition: .6s; }
+#wrraper #contact #right #post li .cover:hover img { transform: scale(1.1); }
+#wrraper #contact #right #post li .title { margin: 20px 0 10px 0; font-weight: normal; font-size: 1.8rem; }
+#wrraper #contact #right #post li .description { text-align: justify; line-height: 25px; font-size: 1.3rem; }
+#wrraper #contact #right #post li .modal_text { position: absolute; left: 0; right: 0; top: 0; bottom: 0; background-color: rgba(255,255,255,.97); text-align: justify; font-family: karalight; line-height: 30px; cursor: pointer; padding: 20px; display: none; animation: modal_text .3s both; font-size: 1.6rem; }
+#wrraper #contact #right #post li .modal_text.hide { display: none; }
+#wrraper #contact #right #post li .modal_text.active { display: block; }
+
+#wrraper #contact #left { width: 30%; }
+#wrraper #contact #left #search { border: 1px solid #DDD; display: flex; margin-bottom: 20px; }
+#wrraper #contact #left #search .field { float: right; width: 80%; border: none; direction: rtl; padding: 10px; border-left: 1px solid #DDD; }
+#wrraper #contact #left #search button { width: 20%; background: none; border: none; }
+#wrraper #contact #left #search button i { font-size: 2.6rem; opacity: .9; }
+
+#wrraper #contact #left .col { border-top: 1px solid #DDD; border-right: 1px solid #DDD; direction: rtl; text-align: right; padding: 20px; }
+#wrraper #contact #left .col .title { font-size: 2rem; margin-bottom: 20px; }
+#wrraper #contact #left .col ul { list-style: disc inside; }
+#wrraper #contact #left .col ul li { padding: 5px 0; }
+#wrraper #contact #left .col ul li a { font-size: 1.3rem; color: rgb(145, 145, 145); }
+
+@keyframes modal_text{
+	0% {
+		opacity: 0;
+		transform: translate(50%, 0);
+	}
+	100% {
+
+	}
+}
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+}
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+}
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	#wrraper #contact #right { width: 100%; }
+	#wrraper #contact #right #post li { width: 100%; margin: 0 0 40px 0; height: auto; }
+	#wrraper #contact #left { width: 100%; }
+	#wrraper #contact #left .col { padding: 20px 0; border-right: none; }
+}
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}

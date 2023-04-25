@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrraper #form { direction: rtl; text-align: right; margin-bottom: 30px; }
+#wrraper #form #content-page { display: flex; }
+#wrraper #form hr { direction: rtl; border-color: #d5d5d5; }
+#wrraper #form #decription { width: 61%; text-align: center; padding: 100px 60px 0 60px; background: url(../../image/screen/form/tn_202867_7298d7dc3e2fb.jpg) center no-repeat; background-size: cover; position: relative; }
+#wrraper #form #decription h1 { border-bottom: 1px solid #999; display: block; width: 100%; padding-bottom: 20px; font-size: 3rem; color: #FFF; font-family: iryekanbold;  }
+#wrraper #form #decription h2 { font-size: 1.6rem; color: #28ABFF; margin: 30px 0; }
+#wrraper #form #decription ul { padding: 0; margin: 0; list-style: none; line-height: 24px; }
+#wrraper #form #decription ul li { margin-bottom: 17px; font-size: 1.4rem; color: #FFF; }
+
+#wrraper #form .form { padding-right: 0; line-height: 25px; padding-left: 0; margin: 60px 100px 0 0; }
+#wrraper #form .form .mainPage-title { margin: 10px 0; }
+#wrraper #form .form .mainPage-title h2 { font-size: 1.7rem; color: #999; display: block; float: right; padding-left: 20px; font-family: iryekanregular; background-color: #FFF; }
+#wrraper #form .form .container { margin-bottom: 21px; position: relative; }
+#wrraper #form .form .text-left { direction: ltr; }
+#wrraper #form .form .container label { display: block; width: 30%; font-size: 1.2rem; font-weight: normal; margin: 11px 0 5px 0; float: right; font-family: iryekanregular; }
+#wrraper #form .form .container label span { color: red; }
+#wrraper #form .form .container .sideLeft { float: right; width: 70%; position: relative; }
+#wrraper #form .form .detail { font-size: 1.3rem; margin: 10px 0; }
+#wrraper #form .form .detail input[type=checkbox] { display: none; }
+#wrraper #form .form .detail input[type=checkbox] + span:before { content: url("../../image/icon/wrraper/eTMgdgjTn2.png"); position: relative; top: 3px; margin-left: 10px; cursor: pointer;animation: light-effect 0.3s ease; }
+#wrraper #form .form .detail input[type=checkbox]:checked + span:before { content: url("../../image/icon/wrraper/eTMgdgjTn.png"); }
+#wrraper #form .form .detail label { width: 100%; font-weight: normal; }
+#wrraper #form .form .detail a { color: #0063a2; text-decoration: none; }
+#wrraper #form .form .detail a:hover { color: #03558a; }
+#wrraper #form .form .title { font-size: 1.4rem; margin: 20px 0; display: block; color: #d50000; }
+#wrraper #form .form .desc { font-size: 1.1rem; font-style: italic; color: #888; }
+
+#wrraper #form .form #codeSecure { text-align: center; }
+#wrraper #form .form #codeSecure label { width: 100%; }
+#wrraper #form .form #codeSecure .text-style { width: 170px; text-align: center; padding-right: 0; padding-left: 0 !important; }
+#wrraper #form .form #codeSecure #Cpatcha { margin: 7px 0 0 0; }
+#wrraper #form .form #codeSecure #Cpatcha img { width: 220px; }
+
+#wrraper #form #inputsecurity { width:50%; float:right }
+
+#wrraper #form .form table tr td:first-child span { color: red; }
+#wrraper #refresh { margin: 0 10px 0 -35px; position: relative; top: 10px; cursor: pointer; border: none; background: none; padding: 0; }
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 1200px) {
+#wrraper #form .form { margin: 0; padding: 10px; }
+}
+
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+#wrraper #form #content-page { display: block; }
+#wrraper #form .form { margin: 0; padding: 10px; }
+#wrraper #form .form .container { margin-bottom: 5px; }
+
+#wrraper #form .form .no-padding-right { padding: 0; }
+#wrraper #form .form .no-padding-left { padding: 0; }
+#wrraper #form .form #Cpatcha { margin: 10px 0; }
+
+#wrraper #form .form .container label { width: 100%; }
+#wrraper #form .form .container .sideLeft  { width: 100%; }
+
+#wrraper #form #decription { width: 100%; padding: 10px; }
+
+
+}
+
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+	
+}

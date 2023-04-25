@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrraper #description { width: 50%; font-family: karalight; direction: rtl; font-size: 2.2rem; margin: 60px auto; text-align: center; line-height: 36px; }
+#list { margin: 50px 0; }
+#list li { width: 100%; direction: rtl; text-align: right; border: 1px solid #DDD; margin: 20px 0; }
+#list li .leftSide { padding: 20px; }
+#list li .title { font-size: 2.4rem; font-family:karalight; margin-bottom: 10px; }
+#list li p { font-size: 1.5rem; font-family:karalight; line-height: 25px; }
+#list li .more { display: inline-block; margin-top: 10px; background: #AB171F; color: #FFF; padding: 10px; font-size: 1.4rem; }
+#list li img { width: 100%; transition: .6s; }
+#list li .cover { overflow: hidden; }
+#list li .cover:hover img { transform: scale(1.2); }
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+}
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+}
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    #wrraper #description { font-size: 1.5rem; width: 100%; padding: 0; }
+    #list li .title { font-size: 1.8rem; }
+    #list li p { font-size: 1.3rem; text-align: justify; }
+}
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}

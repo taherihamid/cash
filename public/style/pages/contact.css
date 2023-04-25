@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contactFix { display: none; }
+#head { padding: 0 !important; position: relative; margin-bottom: 40px !important; }
+#head img { width: 100%; }
+#head .widthParallel { margin-top: 300px; color: #FFF; position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+#head .widthParallel span { position: absolute; bottom: 30px; left: 0; }
+.widthParallel { position: relative; }
+#head { background: url(../../image/screen/contact/sg-contact-us-banner.jpg) no-repeat; background-size: cover; }
+#head .widthParallel { margin-top: 300px; color: #FFF; }
+#contact { margin: 50px auto; direction: rtl; font-size: 1.4rem; line-height: 27px; font-family: karalight; }
+#contact #googleMap { width: 100%; height: 600px; margin-bottom: 50px; }
+#contact .col { border: 1px solid #e6e6e6; font-size: 1.4rem; padding: 10px; margin-bottom: 20px; display: flex; }
+#contact .col b { color: #d50000; margin-left: 5px; }
+#contact .col img { width: 90%; }
+#contact .col span { display: inline-block; }
+#contact .col ul li { line-height: 29px; }
+#contact .col .icon-sell::before { content: "\e94e"; }
+#contact .col .cover { text-align: center; border-left: 1px solid #e6e6e6; }
+#contact .col .cover .centerPos { width: 90px; height: 90px; border-radius: 22px; font-weight: bold; }
+
+#contact #form { margin-top: 35px; }
+#contact #form p { font-size: 1.5rem; margin-bottom: 30px; }
+#contact #form ul li { margin-bottom: 15px; position: relative; }
+#contact #form ul li span { display: inline-block; font-size: 1.5rem; }
+#contact #form ul li .red { color: red; position: relative; top: 5px; }
+#contact #form ul li .textstyle { width: 100%; border: 1px solid #ccc; padding: 6px 10px; }
+#contact #form button { padding: 10px 20px; margin-top: 40px; background-color: #AB171F; color: #FFF; border: none; }
+#contact #form ul #cpatcha .text-style { width: 110px; padding-right: 10px !important; }
+#contact #form ul li img { width: 170px; margin-bottom: 10px; }
+
+/******************* Desktop *********************/
+@media only screen and (min-width:1200px) {
+}
+/******************* Mini *********************/
+@media only screen and (min-width:992px) and (max-width: 1199px){
+}
+/******************* tablet *******************/
+@media only screen and (min-width:768px) and (max-width: 991px){
+}
+/******************* mobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+	#contact { padding: 0; }
+	#head .widthParallel { margin-top: 60px; }
+	#contact #googleMap { height: 230px; }
+	#contact .col-sm-6 { width: 100%; padding: 0; }
+	#contact .col { display: block; text-align: center; padding: 0 0 20px 0; }
+	#contact .col [class*="col-"] { width: 100%; padding: 0; }
+	#contact .col .cover { border: none; height: 100px; margin-top: 10px; }
+	#contact .col .cover .centerPos { width: 100%; }
+	#contact .col span { margin-top: 10px; border-bottom: 1px solid rgb(243, 243, 243); padding-bottom: 10px; width: 100%; }
+	#contact .col .cover img { width: 60px; }
+	#contact .col ul li { padding: 0 10px; }
+	#contact .col ul li b { display: block; width: 45%; float: right; margin: 0; text-align: right; }
+	#contact .col ul li .val { display: block; width: 55%; text-align: right; float: left; margin: 0; padding: 0; border: none; }
+	#contact .col ul { margin-top: 20px; }
+	#contact .indent:last-child { margin-top: 10px; }
+	#contact #form { margin: 0; }
+	#contact ul { padding: 0; }
+}
+/******************* smobile *******************/
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+}
